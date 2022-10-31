@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Glisvestor",
+    "slug": "Glisvestor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoFimon.png",
+    "splash": {
+      "image": "./assets/LogoFimon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to set your profie."
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.suneelsuther.Glisvestor"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
